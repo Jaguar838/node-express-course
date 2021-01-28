@@ -1,28 +1,9 @@
-// import HeaderBlock from "./components/HeaderBlock";
-
-// const App = () => {
-//   return (
-//   <>
-//       <HeaderBlock
-//       title="This is new Title"
-//       descr="This is new description!"
-//       />
-//       <HeaderBlock 
-//       title="This is new Title"
-//       hideBackground
-//       />
-//   </>         
-// );
-//   }
-
-export default App;
-
 import './App.css';
 import Header from './components/Header/Header'
 import Layout from './components/Layout/Layout'
 import Footer from './components/Footer/Footer'
-import bg1 from '../../assets/bg1.jpg';
-import bg2 from '../../assets/bg2.jpg';
+import bg1 from './assets/bg1.jpg';
+import bg2 from './assets/bg2.jpg';
 
 const color = 'yellow';
 
@@ -58,3 +39,22 @@ const App = () => {
 }
 
 export default App;
+
+// import HeaderBlock from "./components/HeaderBlock";
+
+// const App = () => {
+//   return (
+//   <>
+//       <HeaderBlock
+//       title="This is new Title"
+//       descr="This is new description!"
+//       />
+//       <HeaderBlock 
+//       title="This is new Title"
+//       hideBackground
+//       />
+//   </>         
+// );
+//   }
+
+// export default App;
