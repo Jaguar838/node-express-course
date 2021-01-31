@@ -1,8 +1,9 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Layout from './components/Layout/Layout';
+import PokemonCard from './components/PokemonCard/PokemonCard';
 import Footer from './components/Footer/Footer';
-import PokemonCard from './components/PokemonCard';
+
 import bg1 from './assets/bg1.jpg';
 import bg2 from './assets/bg2.jpg';
 
@@ -141,7 +142,7 @@ const POKEMONS = [
       "left": 4
     }
   }
-]
+];
 
 const App = () => {
   return (
@@ -153,6 +154,8 @@ const App = () => {
       <Layout
                 id = "cards"
                 title = "Cards"
+                colorTitle="#FEFEFE"
+                colorBg="#202736"
               >
                 <div className="flex">
                   {

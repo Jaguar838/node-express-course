@@ -11,7 +11,9 @@ const hendlerClick = () => {
 }
     
     return (
-        <div className={s.root} onClick = {hendlerClick}>
+        <section
+         className={s.root} 
+         onClick = {hendlerClick}>
             <div className={`${s.pokemonCard} ${isActive ? s.active : ''}`}>
                 <div className={s.cardFront}>
                     <div className={`${s.wrap} ${s.front}`}>
@@ -44,7 +46,7 @@ const hendlerClick = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 
