@@ -1,0 +1,10 @@
+IP 94.153.79.177
+
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://yamgurov:<password>@cluster0.kzwar.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});

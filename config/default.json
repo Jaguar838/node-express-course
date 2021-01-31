@@ -1,0 +1,5 @@
+{
+    "port": 8000,
+    "jwtSecret": "jaguar838 mern",
+    "mongoUri": "mongodb+srv://yamgurov:test1234@cluster0.kzwar.mongodb.net/app?retryWrites=true&w=majority"
+}
