@@ -4,7 +4,7 @@ import Layout from './components/Layout/Layout';
 import PokemonCard from './components/PokemonCard/PokemonCard';
 import Footer from './components/Footer/Footer';
 
-import bg1 from './assets/bg1.jpg';
+// import bg1 from './assets/bg1.jpg';
 import bg2 from './assets/bg2.jpg';
 
 const color = 'yellow';
