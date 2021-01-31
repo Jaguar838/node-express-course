@@ -7,7 +7,7 @@ import СardBacked from '../../assets/card-back-side.jpg';
 const PokemonCard = ({ name, img, id, type, values }) => {
 const [isActive, setActive] = useState(false);
 const hendlerClick = () => {
-    isActive ? setActive(false) : setActive(true);   
+     setActive(!isActive);   
 }
     
     return (

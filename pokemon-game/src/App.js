@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 
 // import bg1 from './assets/bg1.jpg';
 import bg2 from './assets/bg2.jpg';
+// import bg3 from './assets/bg3.jpg';
 
 const color = 'yellow';
 
@@ -154,7 +155,6 @@ const App = () => {
        <Layout
         id='002'
         title="This is title"
-        descr="This is description"
         colorBg={{ color }}>
           <p>
             In the game two players face off against one another, one side playing as "blue", the other as "red" on a 3x3 grid.
@@ -190,7 +190,7 @@ const App = () => {
         id='003'
         urlBg={bg2}
         title="This is title"
-        descr="This is description"/>
+      />
       
       <Footer/>
      
