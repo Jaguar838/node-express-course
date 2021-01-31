@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import style from './pocemoncard.module.css'; 
+import s from './pokemoncard.module.css'; 
 
 import СardBacked from '../../assets/card-back-side.jpg';
 
